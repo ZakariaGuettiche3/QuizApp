@@ -1,0 +1,29 @@
+.option {
+  padding: 15px 20px;
+  background-color: #e8eff9;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 15px 0px;
+}
+
+.option-correct {
+  padding: 15px 20px;
+  background-color: #bef0ce;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 15px 0px;
+  border: 2px solid #5ac66b;
+}
+.option-incorrect {
+  padding: 15px 20px;
+  background-color: #f9dde1;
+  border: 2px solid #d74747ba;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 15px 0px;
+}
+.card {
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px #80808033 solid;
+}
