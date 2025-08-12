@@ -1,0 +1,14 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django>=5.2.4",
+    "fireworks>=2.0.4",
+    "langchain-fireworks>=0.3.0",
+    "langgraph>=0.5.1",
+    "python-dotenv>=1.1.1",
+    "rest-framework-simplejwt>=0.0.2",
+]

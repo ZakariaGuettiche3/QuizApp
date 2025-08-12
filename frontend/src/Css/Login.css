@@ -1,0 +1,39 @@
+.bigSlider {
+  min-width: 200px;
+  margin-bottom: 25px;
+}
+.slider {
+  width: 100%;
+}
+.login1 {
+  height: 80%;
+}
+.specinput span.imagedonw {
+  background-color: var(--sec-button-color);
+  padding: 12px 35px;
+  left: 69px;
+  z-index: -1;
+  border-radius: 20px;
+}
+.error-label {
+  color: #ff4d4f; /* Rouge doux et élégant */
+  font-size: 0.875rem; /* Taille un peu plus discrète */
+  margin-top: 6px;
+  display: block;
+  font-weight: 400;
+  padding-left: 4px;
+  letter-spacing: 0.3px;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Animation légère pour faire apparaître l'erreur */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

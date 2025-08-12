@@ -1,0 +1,52 @@
+.holder {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .Form1 > p:nth-child(1) {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color:#398399;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .Form1 p:last-of-type {
+    text-align: center;
+    margin: 12px auto;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .specinput i:first-of-type {
+    position: absolute;
+    top: 21px;
+    left: 17px;
+    z-index: -1;
+  }
+  .specinput i:last-of-type {
+    position: absolute;
+    cursor: pointer;
+    top: 21px;
+    right: 17px;
+  }
+  .error-label {
+    color: #ff4d4f; /* Rouge doux et élégant */
+    font-size: 0.875rem; /* Taille un peu plus discrète */
+    margin-top: 6px;
+    display: block;
+    font-weight: 400;
+    padding-left: 4px;
+    letter-spacing: 0.3px;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  /* Animation légère pour faire apparaître l'erreur */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-3px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

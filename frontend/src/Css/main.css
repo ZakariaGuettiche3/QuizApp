@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-button-color: rgb(250, 202, 130);
+  --sec-button-color: rgb(124, 193, 232);
+  --perpul-color: rgb(132, 089, 222);
+  --blue-text-back: rgba(036, 187, 242);
+  --spec-text-color: rgba(248, 176, 188);
+  --background-color: rgba(137, 212, 243);
+  --background-color2: rgba(252, 201, 132);
+  --back-blue: rgba(070, 178, 224);
+  --titre-color: rgba(108, 104, 139);
+  --footer-color: rgba(036, 054, 104);
+  --reade-more-color: rgba(254, 189, 197);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ≥ 1400px (xxl - très grands écrans) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

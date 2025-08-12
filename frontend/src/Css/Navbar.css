@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 10px;
+  padding: 7px 28px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 29px 9px whitesmoke;
+}
+
+nav a {
+  margin: 0px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+nav p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav p span {
+  color: #0157e3;
+  font-size: 23px;
+  font-weight: bold;
+}
+nav span {
+  color: #808080ab;
+  font-size: 36px;
+  font-weight: bold;
+}
+.name {
+  border-radius: 100%;
+  background-color: #0157e3;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 50px;
+}
