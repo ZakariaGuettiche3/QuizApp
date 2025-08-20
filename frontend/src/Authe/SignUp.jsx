@@ -18,7 +18,7 @@ function Login() {
       setconfirmPassworderreur(false);
       try {
         const response = await axios.post(
-          "http://127.0.0.1:8000/api/Sign_up",
+          "https://quizapp-m2tg.onrender.com/api/Sign_up",
           {
             email: user.email,
             password: user.password,
