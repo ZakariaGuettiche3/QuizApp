@@ -17,10 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Quiz import views
-
+from django.http import HttpResponse
+def home(request):
+    return HttpResponse("Welcome to QuizApp!")
 
 
 urlpatterns = [
+    path('', home, name='home'),
     path('admin/', admin.site.urls),
     path('api/Sign_in',views.Sign_in.as_view()),
     path('api/Sign_up',views.Sign_up.as_view()),
