@@ -98,11 +98,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
     "https://zquizapp.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_ALL_ORIGINS = True 
 ROOT_URLCONF = 'QuizApp.urls'
 
 TEMPLATES = [
