@@ -25,7 +25,7 @@ export default function GenerateQuestion() {
       try {
         Setisloading(true);
         const response = await axios.post(
-          "https://quizapp-m2tg.onrender.com/api/GenerateQuestion",
+          "https://quizapp-hh9d.onrender.com/api/GenerateQuestion",
           {
             topic: topic,
           },
@@ -61,7 +61,7 @@ export default function GenerateQuestion() {
     console.log(history);
     try {
       const response = await axios.post(
-        "https://quizapp-m2tg.onrender.com/api/history",
+        "https://quizapp-hh9d.onrender.com/api/history",
         history,
         {
           headers: {

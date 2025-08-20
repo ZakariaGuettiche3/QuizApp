@@ -17,7 +17,7 @@ export default function History() {
   const fetchData = async (date) => {
     try {
       const respons = await axios.get(
-        `https://quizapp-m2tg.onrender.com/api/history?id=${id}&date=${date}`,
+        `https://quizapp-hh9d.onrender.com/api/history?id=${id}&date=${date}`,
         {
           headers: {
             Authorization: `Bearer ${Cookies.get("jwt")}`,
