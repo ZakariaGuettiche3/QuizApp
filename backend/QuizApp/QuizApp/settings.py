@@ -120,7 +120,7 @@ WSGI_APPLICATION = 'QuizApp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 import os
-
+import dj_database_url
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -132,6 +132,7 @@ DATABASES = {
     }
 }
 
+DATABASES['default'] = dj_database_url.parse("postgresql://my_quiz_app_user:ftGC0s87COEwSdnXi08xwFUK1eQl5Yx8@dpg-d2d5h5juibrs73fs44o0-a.frankfurt-postgres.render.com/my_quiz_app")
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
