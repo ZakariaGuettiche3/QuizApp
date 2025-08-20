@@ -11,4 +11,4 @@ One correct answer
 
 A detailed explanation
 ## You can access the live demo of the app :
-      (https://zquizapp.onrender.com)
+https://zquizapp.onrender.com
